@@ -1,0 +1,49 @@
+@import url('./reset.css');
+
+:root {
+    --color-light: #f2f2f2;
+    --color-pale-light: #a64d79;
+    --color-pale-light-25: #a64d7940;
+    --color-pale: #6a1e55;
+    --color-pale-dark: #3b1c32;
+    --color-dark: #1a1a1d;
+
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: var(--color-light);
+    background-color: var(--color-dark);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+    min-width: 120px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1rem;
+    background-color: transparent;
+    color: var(--color-light);
+    border: 3px solid var(--color-pale-dark);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    gap: 0.5rem;
+    &:hover {
+        background-color: var(--color-pale-light);
+    }
+}
+
+.btn.primary {
+    background-color: var(--color-pale-dark);
+    &:hover {
+        background-color: var(--color-pale-light);
+    }
+}

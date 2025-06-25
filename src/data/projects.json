@@ -1,0 +1,125 @@
+[
+    {
+        "title": "Chirp AI Sales Assistant",
+        "subtitle": "Fullstack Developer",
+        "dateStarted": "Dec 2022",
+        "dateEnded": "Dec 2024",
+        "description": "Worked across the stack to build API connectors for Hubspot, Salesforce, and calendar services, powering multi-source lead enrichment. Improved lead qualification by integrating OpenAI APIs with custom data scrapers. Helped maintain and enhance microservices, shipping features like a multi-step onboarding flow that boosted user activation. Also dove into AWS tools to diagnose and fix critical production issues.",
+        "tags": [
+            "AI & LLM",
+            "NodeJS",
+            "Remix",
+            "Supabase",
+            "Angular",
+            "NestJS",
+            "Fullstack Development",
+            "Docker",
+            "Serverless"
+        ],
+        "links": {
+            "github": null,
+            "demo": "https://trychirp.com"
+        },
+        "imageSources": [
+            "/images/projects/chirp-login.png",
+            "/images/projects/chirp-welcome.png",
+            "/images/projects/chirp-calendar-sync.png"
+        ]
+    },
+    {
+        "title": "FixTman Website, ERP & Technician Web Apps",
+        "subtitle": "Fullstack Developer • DevOps",
+        "dateStarted": "Dec 2022",
+        "dateEnded": "Dec 2024",
+        "description": "Led the development of key backend systems, including an admin dashboard with user access controls and centralized logging for better system visibility. Built real-time chat and notifications for technicians, streamlined the booking system with advanced pricing logic, and integrated third-party services through APIs and webhooks. Also contributed to CI/CD automation and collaborated closely with frontend teams across web and mobile platforms.",
+        "tags": [
+            "NodeJS",
+            "NestJS",
+            "Angular",
+            "ReactJS",
+            "NextJS",
+            "WebSockets",
+            "Fullstack Development",
+            "DevOps",
+            "MongoDB",
+            "MySQL",
+            "Cloudflare",
+            "Jenkins",
+            "Docker"
+        ],
+        "links": {
+            "github": null,
+            "demo": "https://fixtman.com"
+        },
+        "imageSources": [
+            "/images/projects/fixtman-web.jpg",
+            "/images/projects/fixtman-tech.png",
+            "/images/projects/fixtman-admin.png"
+        ]
+    },
+    {
+        "title": "SalBaek Technologies Projects",
+        "subtitle": "Fullstack Developer • IT Support • DevOps",
+        "dateStarted": "2022",
+        "dateEnded": "2022",
+        "description": "Developed “STEPv5,” Sal-Tech’s internal ERP system, enabling seamless management of company data, product listings, and file storage. Replaced the need for remote server connections by integrating secure, browser-based file access. Also built additional tools, including an events management site using WordPress.",
+        "tags": [
+            "NodeJS",
+            "Angular",
+            "WebSockets",
+            "Fullstack Development",
+            "IT Administration",
+            "E-Commerce",
+            "DevOps"
+        ],
+        "links": {
+            "github": null,
+            "demo": null
+        },
+        "imageSources": [
+            "/images/projects/sal-tech-stepv5.png",
+            "/images/projects/sal-tech-file-manager.png",
+            "/images/projects/sal-tech-events.png"
+        ]
+    },
+    {
+        "title": "Pandemification",
+        "subtitle": "Senior Thesis • Lead Developer",
+        "dateStarted": "2022",
+        "dateEnded": "2022",
+        "description": "A Gamified learning platform that helps student tackle introductory programming with use of game elements such as leaderboards, badges, etc.",
+        "tags": [
+            "Firebase",
+            "ReactJS",
+            "Material UI",
+            "Fullstack Development",
+            "Gamification",
+            "Research & Development"
+        ],
+        "links": {
+            "github": "https://github.com/pur3coff33/Pandemification",
+            "demo": "https://pdemic.web.app/"
+        },
+        "imageSources": [
+            "/images/projects/pandemification-landing.png",
+            "/images/projects/pandemification-login.png",
+            "/images/projects/pandemification-announcement.png"
+        ]
+    },
+    {
+        "title": "Plague Invasion",
+        "subtitle": "Pet Project • Lead Developer",
+        "dateStarted": "2021",
+        "dateEnded": "2021",
+        "description": "A 2D side-scrolling roguelike-style game where players must navigate through a procedurally generated world while avoiding obstacles and enemies.",
+        "tags": ["Godot", "GDScript", "Game Development"],
+        "links": {
+            "github": null,
+            "demo": null
+        },
+        "imageSources": [
+            "/images/projects/plague-invasion-1.png",
+            "/images/projects/plague-invasion-2.png"
+        ]
+    }
+]

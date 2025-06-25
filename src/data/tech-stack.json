@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Node.js",
+        "icon": "nodejs"
+    },
+    {
+        "name": "Nest.js",
+        "icon": "nestjs"
+    },
+    {
+        "name": "Angular",
+        "icon": "angular"
+    },
+    {
+        "name": "React",
+        "icon": "react"
+    },
+    {
+        "name": "Svelte",
+        "icon": "svelte"
+    },
+    {
+        "name": "Next.js",
+        "icon": "nextjs"
+    },
+    {
+        "name": "TailwindCSS",
+        "icon": "tailwindcss"
+    },
+    {
+        "name": "FastAPI",
+        "icon": "fastapi"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "mongodb"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "postgresql"
+    },
+    {
+        "name": "Firebase",
+        "icon": "firebase"
+    },
+    {
+        "name": "Docker",
+        "icon": "docker"
+    },
+    {
+        "name": "Git",
+        "icon": "git"
+    },
+    {
+        "name": "Jenkins",
+        "icon": "jenkins"
+    },
+    {
+        "name": "AWS",
+        "icon": "aws"
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "gcp"
+    }
+]
