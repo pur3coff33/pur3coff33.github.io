@@ -3,6 +3,11 @@
         imageSources: string[]
     }
     let { imageSources }: ImagePreviewProps = $props()
+    let featuredImageIndex = $state(0)
+
+    const changeFeaturedImage = (index: number) => {
+        featuredImageIndex = index
+    }
 </script>
 <div>
 
@@ -12,12 +17,14 @@
     {:else}
 
         <!-- featured image -->
-        <img src={imageSources[0]} alt="project thumbnail" class="featured-image"/>
+        <img src={imageSources[featuredImageIndex]} alt="project thumbnail" class="featured-image"/>
 
         <div class="gallery">
             <!-- all images -->
             {#each imageSources as imageSource}
-                <img src={imageSource} alt="project thumbnail"/>
+                <button type="button" onclick={() => changeFeaturedImage(imageSources.indexOf(imageSource))}>
+                    <img src={imageSource} alt="project thumbnail"/>
+                </button>
             {/each}
         </div>
     {/if}
@@ -45,8 +52,15 @@
         flex-direction: row;
         gap: 1rem;
 
-        &>img {
+        &>button {
             max-width: 120px;
+            transition: all 0.3s ease;
+            border-radius: 0.5rem;
+            border: none;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 </style>
