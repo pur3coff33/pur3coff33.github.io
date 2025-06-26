@@ -36,6 +36,7 @@
     cursor: pointer;
     position: relative;
     gap: 0.5rem;
+    font-size: small;
     &:hover {
         background-color: var(--color-pale-light);
     }

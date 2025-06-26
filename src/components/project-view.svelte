@@ -1,5 +1,9 @@
 <script lang="ts">
     import ImagePreview from "./image-preview.svelte";
+    import SquareCodeIcon from "../assets/icons/square-code-icon.svelte"
+    import GlobeLockIcon from "../assets/icons/globe-lock-icon.svelte"
+    import ExternalLinkIcon from "../assets/icons/external-link-icon.svelte"
+
 
     interface ProjectViewProps {
         imageSources: string[],
@@ -25,7 +29,8 @@
             <span class="subtitle">{subtitle}</span>
             <span class="date">{dateStarted} - {dateEnded}</span>
             <p>{description}</p>
-            <button class="btn read-more">Read More</button>
+            <!-- TODO: Add Read More View -->
+            <!-- <button class="btn read-more">Read More</button> -->
             <div class="tags">
                 {#each tags as tag}
                     <span>{tag}</span>
@@ -36,8 +41,23 @@
 
     </div>
     <div class="links">
-        <a href={links.github} class="btn">VIEW SOURCE CODE</a>
-        <a href={links.demo} class="btn primary">VIEW DEMO</a>
+        <a href={links.github} target="_blank" class="btn">
+            {#if links.github}
+                <SquareCodeIcon/>
+            {:else}
+                <GlobeLockIcon/>
+            {/if}
+            
+            VIEW SOURCE CODE
+        </a>
+        <a href={links.demo} target="_blank" class="btn primary" >
+            {#if links.demo}
+                <ExternalLinkIcon/>
+            {:else}
+                <GlobeLockIcon/>
+            {/if}
+            VIEW DEMO
+        </a>
     </div>
 </div>
 
@@ -67,9 +87,6 @@
             font-size: small;
             font-style: italic;
         }        
-    }
-    .read-more {
-        max-width: 120px;
     }
     .links {
         display: flex;
