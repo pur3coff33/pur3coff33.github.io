@@ -6,6 +6,12 @@
   import Contact from './components/contact.svelte'
   import DownloadIcon from './assets/icons/download-icon.svelte'
 
+  const CV_LINK = '/docs/Fullstack_Developer_Maravilla_Jon_Ariel.pdf'
+
+  const viewCV = () => {
+    window.open(CV_LINK, '_blank');
+  }
+
 </script>
 
 <main>
@@ -18,7 +24,12 @@
       I focus on scalable architecture, clean code, and continuous learning.
     </p>
     <div class="cta">
-      <button class="btn primary">
+      <button 
+        id="btn-download-cv" 
+        data-umami-event="download-cv" 
+        class="btn primary" 
+        onclick={viewCV}
+        >
         <DownloadIcon />
         DOWNLOAD CV
       </button>
