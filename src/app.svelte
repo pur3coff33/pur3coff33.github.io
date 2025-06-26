@@ -156,5 +156,29 @@
     gap: 5rem;
   }
 
+  @media only screen and (max-width: 640px) {
+    main {
+      padding: 1rem 0;
+    }
+    section {
+      padding: 1rem;
+    }
+
+    .hero {
+      &>h1 {
+        font-size: xx-large;
+      }
+    }
+
+    .tech-stack {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+      &>div {
+        font-size: small;
+      }
+    }
+  }
+
 
 </style>
