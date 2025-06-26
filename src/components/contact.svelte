@@ -17,7 +17,16 @@
   
     <div class="content">
         <h2>Thanks for checking out my portfolio</h2>
-        <p>You can reach me out at <a href={`mailto:${email}`}>{email}</a></p>
+        <p>
+            You can reach me out at 
+            <a 
+                href={`mailto:${email}` }  
+                id="link-mail" 
+                data-umami-event="mail" 
+                >
+                {email}
+            </a>
+        </p>
 
         <div class="socials">
             <a href={github} aria-label="github">

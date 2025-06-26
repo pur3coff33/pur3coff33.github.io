@@ -22,7 +22,10 @@
         <div class="gallery">
             <!-- all images -->
             {#each imageSources as imageSource}
-                <button type="button" onclick={() => changeFeaturedImage(imageSources.indexOf(imageSource))}>
+                <button type="button" 
+                    class={featuredImageIndex === imageSources.indexOf(imageSource) ? 'active' : ''}
+                    onclick={() => changeFeaturedImage(imageSources.indexOf(imageSource))}
+                    >
                     <img src={imageSource} alt="project thumbnail"/>
                 </button>
             {/each}
@@ -61,6 +64,9 @@
             &:hover {
                 transform: scale(1.1);
             }
+        }
+        &>button.active {
+            outline: 3px dashed var(--color-pale-light);
         }
     }
 </style>
