@@ -6,7 +6,7 @@
   import Contact from './components/contact.svelte'
   import DownloadIcon from './assets/icons/download-icon.svelte'
 
-  const CV_LINK = '/docs/Fullstack_Developer_Maravilla_Jon_Ariel.pdf'
+  const CV_LINK = '/docs/001_Maravilla_Jon_Ariel_CV.pdf'
 
   const viewCV = () => {
     window.open(CV_LINK, '_blank');
