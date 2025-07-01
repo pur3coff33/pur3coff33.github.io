@@ -56,7 +56,7 @@
             {:else}
                 <GlobeLockIcon/>
             {/if}
-            VIEW DEMO
+            VIEW
         </a>
     </div>
 </div>
