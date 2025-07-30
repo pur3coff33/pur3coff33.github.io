@@ -29,7 +29,7 @@
     {
         "title": "FixTman Website, ERP & Technician Web Apps",
         "subtitle": "Fullstack Developer • DevOps",
-        "dateStarted": "Jan 2023",
+        "dateStarted": "Dec 2022",
         "dateEnded": "Dec 2024",
         "description": "Led the development of key backend systems, including an admin dashboard with user access controls and centralized logging for better system visibility. Built real-time chat and notifications for technicians, streamlined the booking system with advanced pricing logic, and integrated third-party services through APIs and webhooks. Also contributed to CI/CD automation and collaborated closely with frontend teams across web and mobile platforms.",
         "tags": [
