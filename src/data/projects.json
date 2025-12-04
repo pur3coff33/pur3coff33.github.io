@@ -1,5 +1,29 @@
 [
     {
+        "title": "ChartEasy for US Healthcare Providers",
+        "subtitle": "Application Developer / Fullstack Developer",
+        "dateStarted": "Aug 2025",
+        "dateEnded": "Dec 2025",
+        "description": "At Theoria Medical, I worked as a Mid-level Application Developer primarily in Billings and Payments team where I improved the external data extraction pipeline by adding strict validation, retry logic, and better error handling—reducing invalid data by 99% and cutting manual review work by over 50%. I automated high-volume recurring tasks using Google Apps Script, Python, and mongosh, lowering operational workload by 95%. I also built and parsed HL7 message payloads for billing, insurance, and patient-information systems while adhering to HIPAA requirements, and collaborated with data engineers, QA testers, and data analyst teams to resolve data inconsistencies and enhance overall microservice reliability.",
+        "tags": [
+            "Fullstack Development",
+            "NodeJS",
+            "MongoDB",
+            "ReactJS",
+            "HL7 API",
+            "HIPAA COMPLIANCE"
+        ],
+        "links": {
+            "github": null,
+            "demo": "https://theoriamedical.com"
+        },
+        "imageSources": [
+            "/images/projects/tm1.png",
+            "/images/projects/tm2-bap.png",
+            "/images/projects/tm-3-ce.png"
+        ]
+    },
+    {
         "title": "Chirp AI Sales Assistant",
         "subtitle": "Fullstack Developer",
         "dateStarted": "Jan 2025",
